@@ -52,7 +52,7 @@ public:
 //NHANVIEN
 void NhanVien::nhap()
 {
-	cout << "Nhap ID: ";					fflush(stdin);		cin >> id;
+	cout << "Nhap ID: ";				fflush(stdin);		cin >> id;
 	cout << "Nhap ten nhan vien: ";			fflush(stdin);		getline(cin,fullname);
 	cout << "Nhap ma so thue: ";			fflush(stdin);		cin >> taxcode;
 }
@@ -115,7 +115,7 @@ void NhanVienHD::xuat()
 void NhanVienHH::nhap()
 {
 	NhanVien::nhap();
-	cout << "Nhap tong so doanh thu: ";		fflush(stdin);		cin >> tongdoanhthu;
+	cout << "Nhap tong so doanh thu: ";	fflush(stdin);		cin >> tongdoanhthu;
 }
 
 void NhanVienHH::xuat()
